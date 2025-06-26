@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({ title, description, canonical, ogImage }) => 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:site_name" content="Andy's Armadollars" />
+    <meta property="og:site_name" content="Sabby's Armadollars" />
     {ogImage && <meta property="og:image" content={ogImage} />}
     {canonical && <link rel="canonical" href={canonical} />}
     <meta name="twitter:card" content="summary_large_image" />
